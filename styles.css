@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0059b3;
+    transition: background-color 0.3s ease;
+}
+
+nav a.active {
+    background-color: #0059b3;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 51, 102, 0.6);
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #cc5200;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+h3 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.about-home, .services-overview, .cta-home {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Service Cards */
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.service-card h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1em;
+}
+
+/* Testimonials */
+.testimonials .testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #0059b3;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-card h5 {
+    font-weight: normal;
+    margin-top: 10px;
+    color: #ffcc00;
+}
+
+/* Call to Action */
+.cta-home {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta-home p {
+    font-size: 1.2em;
+}
+
+.cta-home .btn {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-home .btn:hover {
+    background-color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
